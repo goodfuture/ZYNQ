@@ -1,0 +1,1 @@
+cmd_/mnt/hgfs/share/ARM/Driver/bram/bram.ko := arm-xilinx-linux-gnueabi-ld -EL -r  -T /home/sinogram/zynq/linux-xlnx-master/scripts/module-common.lds --build-id  -o /mnt/hgfs/share/ARM/Driver/bram/bram.ko /mnt/hgfs/share/ARM/Driver/bram/bram.o /mnt/hgfs/share/ARM/Driver/bram/bram.mod.o

@@ -1,0 +1,69 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AXI_TXFIFO	xfifo_dma.c	51;"	d	file:
+AXI_TXFIFO_LEN	xfifo_dma.c	52;"	d	file:
+AXI_TXFIFO_RST	xfifo_dma.c	49;"	d	file:
+AXI_TXFIFO_STS	xfifo_dma.c	48;"	d	file:
+AXI_TXFIFO_VAC	xfifo_dma.c	50;"	d	file:
+KDIR	Makefile	/^KDIR=\/home\/kangqi\/Project\/zynq\/kernel\/linux-xlnx\/$/;"	m
+MODULE_NAME	xfifo_dma.c	57;"	d	file:
+PDEBUG_S	xfifo_dma.c	45;"	d	file:
+TXFIFO_RST	xfifo_dma.c	55;"	d	file:
+TXFIFO_STS_CLR	xfifo_dma.c	54;"	d	file:
+XFIFO_DMA_MINOR	xfifo_dma.c	58;"	d	file:
+__devinitdata	xfifo_dma.c	/^static struct of_device_id xfifodma_of_match[] __devinitdata = {$/;"	v	typeref:struct:xfifodma_of_match	file:
+buffer_d_addr	xfifo_dma.c	/^        dma_addr_t buffer_d_addr;$/;"	m	struct:xfifo_dma_dev	file:
+buffer_v_addr	xfifo_dma.c	/^        void *buffer_v_addr;$/;"	m	struct:xfifo_dma_dev	file:
+burst_length	xfifo_dma.c	/^        u32 burst_length;$/;"	m	struct:xfifo_dma_dev	file:
+busy	xfifo_dma.c	/^        int busy;$/;"	m	struct:xfifo_dma_dev	file:
+bytes_written	xfifo_dma.c	/^        u32 bytes_written;$/;"	m	struct:xfifo_dma_dev	file:
+cdev	xfifo_dma.c	/^        struct cdev cdev;$/;"	m	struct:xfifo_dma_dev	typeref:struct:xfifo_dma_dev::cdev	file:
+client_data	xfifo_dma.c	/^        struct pl330_client_data *client_data;$/;"	m	struct:xfifo_dma_dev	typeref:struct:xfifo_dma_dev::pl330_client_data	file:
+closes	xfifo_dma.c	/^        u32 closes;$/;"	m	struct:xfifo_dma_dev	file:
+count	xfifo_dma.c	/^        size_t count;$/;"	m	struct:xfifo_dma_dev	file:
+dev_addrsize	xfifo_dma.c	/^        u32 dev_addrsize;$/;"	m	struct:xfifo_dma_dev	file:
+dev_physaddr	xfifo_dma.c	/^        u32 dev_physaddr;$/;"	m	struct:xfifo_dma_dev	file:
+dev_virtaddr	xfifo_dma.c	/^        void *dev_virtaddr;$/;"	m	struct:xfifo_dma_dev	file:
+devno	xfifo_dma.c	/^        dev_t devno;$/;"	m	struct:xfifo_dma_dev	file:
+dma_channel	xfifo_dma.c	/^        u32 dma_channel;$/;"	m	struct:xfifo_dma_dev	file:
+errors	xfifo_dma.c	/^        u32 errors;$/;"	m	struct:xfifo_dma_dev	file:
+fifo_depth	xfifo_dma.c	/^        u32 fifo_depth;$/;"	m	struct:xfifo_dma_dev	file:
+mutex	xfifo_dma.c	/^        struct mutex mutex;$/;"	m	struct:xfifo_dma_dev	typeref:struct:xfifo_dma_dev::mutex	file:
+obj-m	Makefile	/^obj-m :=xfifo_dma.o$/;"	m
+opens	xfifo_dma.c	/^        u32 opens;$/;"	m	struct:xfifo_dma_dev	file:
+pdev	xfifo_dma.c	/^        struct platform_device *pdev;$/;"	m	struct:xfifo_dma_dev	typeref:struct:xfifo_dma_dev::platform_device	file:
+write_buffer	xfifo_dma.c	/^dma_addr_t write_buffer;$/;"	v
+writers	xfifo_dma.c	/^        u32 writers;$/;"	m	struct:xfifo_dma_dev	file:
+writes	xfifo_dma.c	/^        u32 writes;$/;"	m	struct:xfifo_dma_dev	file:
+xfifo_dma_dev	xfifo_dma.c	/^struct xfifo_dma_dev *xfifo_dma_dev;$/;"	v	typeref:struct:xfifo_dma_dev
+xfifo_dma_dev	xfifo_dma.c	/^struct xfifo_dma_dev {$/;"	s	file:
+xfifo_dma_done_callback	xfifo_dma.c	/^static void xfifo_dma_done_callback(unsigned int channel, void *data)$/;"	f	file:
+xfifo_dma_driver	xfifo_dma.c	/^static struct platform_driver xfifo_dma_driver = {$/;"	v	typeref:struct:platform_driver	file:
+xfifo_dma_exit	xfifo_dma.c	/^module_exit(xfifo_dma_exit);$/;"	v
+xfifo_dma_exit	xfifo_dma.c	/^static void __exit xfifo_dma_exit(void)$/;"	f	file:
+xfifo_dma_fault_callback	xfifo_dma.c	/^static void xfifo_dma_fault_callback(unsigned int channel,$/;"	f	file:
+xfifo_dma_fops	xfifo_dma.c	/^struct file_operations xfifo_dma_fops = {$/;"	v	typeref:struct:file_operations
+xfifo_dma_init	xfifo_dma.c	/^module_init(xfifo_dma_init);$/;"	v
+xfifo_dma_init	xfifo_dma.c	/^static int __init xfifo_dma_init(void)$/;"	f	file:
+xfifo_dma_lseek	xfifo_dma.c	/^loff_t xfifo_dma_lseek(struct file *filp, loff_t off, int whence)$/;"	f
+xfifo_dma_major	xfifo_dma.c	/^int xfifo_dma_major = 60;$/;"	v
+xfifo_dma_open	xfifo_dma.c	/^int xfifo_dma_open(struct inode *inode, struct file *filp)$/;"	f
+xfifo_dma_probe	xfifo_dma.c	/^static int xfifo_dma_probe(struct platform_device *pdev)$/;"	f	file:
+xfifo_dma_proc_open	xfifo_dma.c	/^static int xfifo_dma_proc_open(struct inode *inode, struct file *file)$/;"	f	file:
+xfifo_dma_proc_ops	xfifo_dma.c	/^static struct file_operations xfifo_dma_proc_ops = {$/;"	v	typeref:struct:file_operations	file:
+xfifo_dma_proc_seq_next	xfifo_dma.c	/^static void *xfifo_dma_proc_seq_next(struct seq_file *s, void *v, loff_t *pos)$/;"	f	file:
+xfifo_dma_proc_seq_ops	xfifo_dma.c	/^static struct seq_operations xfifo_dma_proc_seq_ops = {$/;"	v	typeref:struct:seq_operations	file:
+xfifo_dma_proc_seq_show	xfifo_dma.c	/^static int xfifo_dma_proc_seq_show(struct seq_file *s, void *v)$/;"	f	file:
+xfifo_dma_proc_seq_start	xfifo_dma.c	/^static void *xfifo_dma_proc_seq_start(struct seq_file *s, loff_t *pos)$/;"	f	file:
+xfifo_dma_proc_seq_stop	xfifo_dma.c	/^static void xfifo_dma_proc_seq_stop(struct seq_file *s, void *v)$/;"	f	file:
+xfifo_dma_read	xfifo_dma.c	/^ssize_t xfifo_dma_read(struct file *filp, char __user *buf, size_t count,$/;"	f
+xfifo_dma_release	xfifo_dma.c	/^int xfifo_dma_release(struct inode *inode, struct file *filp)$/;"	f
+xfifo_dma_remove	xfifo_dma.c	/^static int xfifo_dma_remove(struct platform_device *pdev)$/;"	f	file:
+xfifo_dma_reset_fifo	xfifo_dma.c	/^static void xfifo_dma_reset_fifo(void)$/;"	f	file:
+xfifo_dma_wait	xfifo_dma.c	/^DECLARE_WAIT_QUEUE_HEAD(xfifo_dma_wait);$/;"	v
+xfifo_dma_write	xfifo_dma.c	/^ssize_t xfifo_dma_write(struct file *filp, const char __user *buf, size_t count,$/;"	f
+xfifodma_of_match	xfifo_dma.c	545;"	d	file:

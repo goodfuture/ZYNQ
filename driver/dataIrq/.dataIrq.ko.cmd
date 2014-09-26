@@ -1,0 +1,1 @@
+cmd_/mnt/hgfs/share/ARM/Driver/dataIrq/dataIrq.ko := arm-xilinx-linux-gnueabi-ld -EL -r  -T /home/sinogram/zynq/linux-xlnx-master/scripts/module-common.lds --build-id  -o /mnt/hgfs/share/ARM/Driver/dataIrq/dataIrq.ko /mnt/hgfs/share/ARM/Driver/dataIrq/dataIrq.o /mnt/hgfs/share/ARM/Driver/dataIrq/dataIrq.mod.o

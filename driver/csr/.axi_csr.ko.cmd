@@ -1,0 +1,1 @@
+cmd_/mnt/hgfs/share/ARM/Driver/csr/axi_csr.ko := arm-xilinx-linux-gnueabi-ld -EL -r  -T /home/sinogram/zynq/linux-xlnx-master/scripts/module-common.lds --build-id  -o /mnt/hgfs/share/ARM/Driver/csr/axi_csr.ko /mnt/hgfs/share/ARM/Driver/csr/axi_csr.o /mnt/hgfs/share/ARM/Driver/csr/axi_csr.mod.o

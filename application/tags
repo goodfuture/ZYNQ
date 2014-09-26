@@ -1,0 +1,378 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ACKHEADER_SIZE	app.h	17;"	d
+ACQ_START_ACK	app.h	/^	ACQ_START_ACK,$/;"	e	enum:enuCmd
+ACQ_START_CMD	app.h	/^	ACQ_START_CMD = 0x1001,$/;"	e	enum:enuCmd
+ACQ_STOP_ACK	app.h	/^	ACQ_STOP_ACK,$/;"	e	enum:enuCmd
+ACQ_STOP_CMD	app.h	/^	ACQ_STOP_CMD,$/;"	e	enum:enuCmd
+AR	common.mk	/^AR	= $(CROSS_COMPILE)ar$/;"	m
+ARFLAGS	common.mk	/^ARFLAGS=crv$/;"	m
+AS	common.mk	/^AS  = $(CROSS_COMPILE)as$/;"	m
+AcceptLink	app.c	/^int32_t AcceptLink(void)$/;"	f
+AckHeader	app.h	/^typedef struct tagCmdHeader AckHeader;$/;"	t	typeref:struct:tagCmdHeader
+AcqBeginAck	app.h	/^	AcqBeginAck,$/;"	e	enum:enuMesg
+AcqBeginMesg	app.h	/^	AcqBeginMesg = 0x2001,$/;"	e	enum:enuMesg
+AcqEndAck	app.h	/^	AcqEndAck,$/;"	e	enum:enuMesg
+AcqEndMesg	app.h	/^	AcqEndMesg,$/;"	e	enum:enuMesg
+AcqStart	app.c	/^int32_t AcqStart(void)$/;"	f
+AcqStop	app.c	/^int32_t AcqStop(void)$/;"	f
+App	app.c	/^int32_t App(void)$/;"	f
+AppStart	app.c	/^int32_t AppStart(void)$/;"	f
+BRAM_SIZE	app.h	37;"	d
+BitToHex	lfsr.c	/^uint32_t BitToHex(uint8_t bits[], uint8_t len)$/;"	f
+CALIBRATE_TIMES	app.h	42;"	d
+CALIBRATION_MODE	csr.h	86;"	d
+CC	common.mk	/^CC	= $(CROSS_COMPILE)gcc$/;"	m
+CFLAGS	common.mk	/^CFLAGS = -g  -O0 -Wall -Wno-unused-variable -Wno-unused-but-set-variable -isystem $(gccincdir) $/;"	m
+CFLAGS	common.mk	/^CFLAGS = -g  -O0 -Wall -isystem $(gccincdir) $/;"	m
+CMDHEADER_SIZE	app.h	16;"	d
+CPP	common.mk	/^CPP	= $(CC) -E$/;"	m
+CROSS_COMPILE	common.mk	/^CROSS_COMPILE = arm-xilinx-linux-gnueabi-$/;"	m
+CSR_CODE_CLK_CYCLES	csr.h	53;"	d
+CSR_CODE_LENGTH	csr.h	47;"	d
+CSR_C_TO_IO_BUSY	csr.h	24;"	d
+CSR_C_TO_IO_CMD	csr.h	28;"	d
+CSR_C_TO_IO_CTS	csr.h	26;"	d
+CSR_C_TO_IO_RTS	csr.h	27;"	d
+CSR_C_TO_IO_STOP	csr.h	25;"	d
+CSR_FLL_SCALE_SET	csr.h	43;"	d
+CSR_FLT_SEL	csr.h	42;"	d
+CSR_INPUT_SEL	csr.h	44;"	d
+CSR_IO_TO_C_BUSY	csr.h	31;"	d
+CSR_IO_TO_C_CTS	csr.h	33;"	d
+CSR_IO_TO_C_D	csr.h	35;"	d
+CSR_IO_TO_C_RTS	csr.h	34;"	d
+CSR_IO_TO_C_STOP	csr.h	32;"	d
+CSR_MODE	csr.h	41;"	d
+CSR_PPS1	csr.h	69;"	d
+CSR_PROG_FULL	csr.h	65;"	d
+CSR_REC_EN	csr.h	39;"	d
+CSR_SAMPLES_LENGTH	csr.h	50;"	d
+CSR_SYNC_MODE	csr.h	40;"	d
+CSR_TRANS_EN	csr.h	38;"	d
+CSR_T_ACQ	csr.h	58;"	d
+CSR_T_DELTA	csr.h	57;"	d
+CSR_T_START	csr.h	56;"	d
+CheckValue	lfsr.c	/^int32_t CheckValue(uint32_t uiValue, uint32_t n)$/;"	f
+CmdAddrPeer	app.c	/^static struct sockaddr_in CmdAddrPeer;$/;"	v	typeref:struct:sockaddr_in	file:
+CmdHandler	app.h	/^typedef int32_t (*CmdHandler)(void);$/;"	t
+CmdHeader	app.h	/^}CmdHeader;$/;"	t	typeref:struct:tagCmdHeader
+CommandData	app.h	/^}CommandData;$/;"	t	typeref:struct:tagCommandData
+Configuration	app.c	/^int32_t Configuration(void)$/;"	f
+CreateDir	app.c	/^uint32_t   CreateDir(const  char  *sPathName)  $/;"	f
+DataAddrLocal	app.c	/^static struct sockaddr_in DataAddrLocal;$/;"	v	typeref:struct:sockaddr_in	file:
+DataAddrPeer	app.c	/^static struct sockaddr_in DataAddrPeer;$/;"	v	typeref:struct:sockaddr_in	file:
+Debugout	common.h	23;"	d
+Debugout	common.h	25;"	d
+DeliverData	app.c	/^void DeliverData(void)$/;"	f
+DeliverData_s	app.c	/^void DeliverData_s(void)$/;"	f
+EEEE1	gps.c	532;"	d	file:
+EEEE2	gps.c	533;"	d	file:
+ERR_INFO_ENABLE	common.h	35;"	d
+ErrorInfo	common.h	37;"	d
+ErrorInfo	common.h	39;"	d
+FALSE	common.h	57;"	d
+FILE_BUFF_SIZE	app.h	38;"	d
+FILTER_120KHz	csr.h	84;"	d
+FILTER_12KHz	csr.h	81;"	d
+FILTER_1_2KHz	csr.h	83;"	d
+FILTER_NONE	csr.h	82;"	d
+FULL_SCALE_300mV	csr.h	76;"	d
+FULL_SCALE_300uV	csr.h	79;"	d
+FULL_SCALE_30mV	csr.h	77;"	d
+FULL_SCALE_3V	csr.h	75;"	d
+FULL_SCALE_3mV	csr.h	78;"	d
+GetAverage	app.c	/^int32_t GetAverage(int32_t *Data, uint32_t len)$/;"	f
+GetAverageUnit	app.c	/^uint32_t GetAverageUnit(uint32_t *Data, uint32_t len)$/;"	f
+GetBitNum	lfsr.c	/^uint32_t GetBitNum(uint32_t uiValue)$/;"	f
+GetBitSet	lfsr.c	/^void GetBitSet(uint32_t uiValue, uint8_t *pucFirst, uint8_t *pucSecond)$/;"	f
+GetBramFd	main.c	/^int GetBramFd(void)$/;"	f
+GetCmdHandler	app.c	/^CmdHandler GetCmdHandler(uint16_t usCmd)$/;"	f
+GetCsrFd	main.c	/^int GetCsrFd(void)$/;"	f
+GetDataIrqFd	main.c	/^int GetDataIrqFd(void)$/;"	f
+GetGpsInfo	gps.c	/^struct gps_data_t * GetGpsInfo(void)$/;"	f
+GetIrqFd	main.c	/^int GetIrqFd(void)$/;"	f
+GetLfsrUint	lfsr.c	/^int GetLfsrUint(uint32_t uiSeed, uint32_t uiValue, uint32_t *puiBuff, uint32_t n)$/;"	f
+GetLsfr	lfsr.c	/^uint32_t GetLsfr(uint32_t uiSeed, uint8_t ucFirst, uint32_t ucSecond, uint8_t *bit)$/;"	f
+GetRamFd	main.c	/^int GetRamFd(void)$/;"	f
+GetReadyFlag	app.c	/^uint8_t GetReadyFlag(void)$/;"	f
+GetRealData	app.c	/^int GetRealData(InterData pInterData[], int iPcData, int len)$/;"	f
+GetRegMask	csr.c	/^uint32_t GetRegMask(uint32_t uiLabel)$/;"	f
+GpsThread	gps.c	/^void *GpsThread(void *args)$/;"	f
+GpsTimeAck	app.h	/^	GpsTimeAck,$/;"	e	enum:enuMesg
+GpsTimeMesg	app.h	/^	GpsTimeMesg,$/;"	e	enum:enuMesg
+Handler	app.h	/^	CmdHandler Handler;$/;"	m	struct:tagCommandData
+HexToBit	lfsr.c	/^uint8_t HexToBit(uint16_t usHex, uint8_t bits[])$/;"	f
+IMAGE	common.mk	/^IMAGE = mAcquisitonBoard$/;"	m
+INIT_INFO	common.h	42;"	d
+INI_FILE_H_	inifile.h	3;"	d
+INI_ITEM_NUM	app.h	44;"	d
+INPUT_DAC	csr.h	73;"	d
+INPUT_GND	csr.h	72;"	d
+INPUT_OUT_SINGAL	csr.h	71;"	d
+IniData	app.h	/^}IniData;$/;"	t	typeref:struct:tagIniData
+InitGps	gps.c	/^int32_t InitGps(void)$/;"	f
+InitInfo	common.h	44;"	d
+InitInfo	common.h	46;"	d
+InitMem	app.c	/^int32_t InitMem(void)$/;"	f
+InitNetLink	app.c	/^int32_t InitNetLink(void)$/;"	f
+InterData	app.h	/^}InterData;$/;"	t	typeref:struct:tagInterData
+KEY_120KHz	app.h	67;"	d
+KEY_12KHz	app.h	68;"	d
+KEY_1_2KHz	app.h	69;"	d
+KEY_NONE	app.h	66;"	d
+LD	common.mk	/^LD	= $(CROSS_COMPILE)ld$/;"	m
+LDFLAGS	common.mk	/^LDFLAGS= $/;"	m
+LEFT_BRACE	inifile.c	15;"	d	file:
+LENGTH	app.h	79;"	d
+LOCAL_CMD_PORT	app.h	29;"	d
+LOCAL_DATA_PORT	app.h	30;"	d
+LOCAL_MSG_PORG	app.h	31;"	d
+MAX_FILE_SIZE	inifile.c	14;"	d	file:
+MESGHEADER_SIZE	app.h	19;"	d
+MESG_BUFF_SIZE	app.h	26;"	d
+MESG_MAX_SIZE	app.h	25;"	d
+MesgAddrLocal	app.c	/^static struct sockaddr_in MesgAddrLocal;$/;"	v	typeref:struct:sockaddr_in	file:
+MesgAddrPeer	app.c	/^static struct sockaddr_in MesgAddrPeer;$/;"	v	typeref:struct:sockaddr_in	file:
+MesgHeader	app.h	/^}MesgHeader;$/;"	t	typeref:struct:tagMesgHeader
+MesgThread	app.c	/^void *MesgThread(void *args)$/;"	f
+MyTm	gps.h	/^struct MyTm$/;"	s
+NM	common.mk	/^NM	= $(CROSS_COMPILE)nm$/;"	m
+NNNN1	gps.c	529;"	d	file:
+NNNN2	gps.c	530;"	d	file:
+OBJCOPY	common.mk	/^OBJCOPY = $(CROSS_COMPILE)objcopy$/;"	m
+OBJDUMP	common.mk	/^OBJDUMP = $(CROSS_COMPILE)objdump$/;"	m
+OBJS	Makefile	/^OBJS = main.o csr.o app.o inifile.o lfsr.o gps.o$/;"	m
+PACKAGE_SIZE	app.h	39;"	d
+PACKAGE_TOTAL	app.h	41;"	d
+Power	lfsr.c	/^uint32_t Power(uint32_t n)$/;"	f
+PraseGPS	gps.c	/^struct gps_data_t * PraseGPS(void)$/;"	f
+RANLIB	common.mk	/^RANLIB	= $(CROSS_COMPILE)RANLIB$/;"	m
+REG_BITNUM	csr.h	20;"	d
+REG_OFFSET	csr.h	18;"	d
+REG_SHIFT	csr.h	19;"	d
+REMOTE_IP	app.h	28;"	d
+REMOTE_TCP_PORT	app.h	33;"	d
+REMOTE_UDP_PORT	app.h	32;"	d
+RET_FAIL	common.h	50;"	d
+RET_OK	common.h	49;"	d
+RIGHT_BRACE	inifile.c	16;"	d	file:
+RegRead	csr.c	/^uint32_t RegRead(int32_t fd, uint32_t uiLabel)$/;"	f
+RegWrite	csr.c	/^int32_t RegWrite(int32_t fd, uint32_t uiLabel, uint32_t uiValue)$/;"	f
+SAMPLE_SIZE	app.h	35;"	d
+SEC_300mV_NEG	app.h	51;"	d
+SEC_300mV_NON	app.h	52;"	d
+SEC_300mV_POS	app.h	50;"	d
+SEC_300uV_NEG	app.h	63;"	d
+SEC_300uV_NON	app.h	64;"	d
+SEC_300uV_POS	app.h	62;"	d
+SEC_30mV_NEG	app.h	55;"	d
+SEC_30mV_NON	app.h	56;"	d
+SEC_30mV_POS	app.h	54;"	d
+SEC_3V_NEG	app.h	47;"	d
+SEC_3V_NON	app.h	48;"	d
+SEC_3V_POS	app.h	46;"	d
+SEC_3mV_NEG	app.h	59;"	d
+SEC_3mV_NON	app.h	60;"	d
+SEC_3mV_POS	app.h	58;"	d
+STRIP	common.mk	/^STRIP	= $(CROSS_COMPILE)strip$/;"	m
+SYNC_MODE_GPS	csr.h	89;"	d
+SYNC_MODE_OUT	csr.h	90;"	d
+Sample_Rate_156_25KHz	app.h	72;"	d
+Sample_Rate_1_25MHz	app.h	75;"	d
+Sample_Rate_2_5MHz	app.h	76;"	d
+Sample_Rate_312_5KHz	app.h	73;"	d
+Sample_Rate_625KHz	app.h	74;"	d
+Sample_Rate_78_125KHz	app.h	71;"	d
+SaveFileToSd	app.c	/^int32_t SaveFileToSd(void)$/;"	f
+SetDataToRam	app.c	/^int32_t SetDataToRam(uint32_t uiSeed, uint32_t uiValue, uint32_t n)$/;"	f
+SetReadyFlag	app.c	/^void SetReadyFlag(uint8_t ucFlag)$/;"	f
+SetSampleRate	app.c	/^int32_t SetSampleRate(uint8_t ucSampleRate)$/;"	f
+TCP_BUFF_SIZE	app.h	22;"	d
+TCP_DATA_SIZE	app.h	21;"	d
+TRUE	common.h	53;"	d
+TcpAddrLocal	app.c	/^static struct sockaddr_in TcpAddrLocal;$/;"	v	typeref:struct:sockaddr_in	file:
+TempInfo	common.h	30;"	d
+TempInfo	common.h	32;"	d
+TestSd	app.c	/^void TestSd(void)$/;"	f
+UDPHEADER_SIZE	app.h	18;"	d
+UDP_BUFF_SIZE	app.h	24;"	d
+UDP_DATA_SIZE	app.h	23;"	d
+UdpDeliverData	app.c	/^void UdpDeliverData(void)$/;"	f
+UdpHeader	app.h	/^}UdpHeader;$/;"	t	typeref:struct:tagUdpHeader
+UdpInitNetLink	app.c	/^int32_t UdpInitNetLink(void)$/;"	f
+Version	gps.c	21;"	d	file:
+WORK_MODE	csr.h	87;"	d
+_APP_H_	app.h	2;"	d
+_COMMON_H_	common.h	2;"	d
+_CSR_H_	csr.h	2;"	d
+_LFSR_H_	lfsr.h	2;"	d
+_MAIN_H_	main.h	2;"	d
+__GPS__H	gps.h	2;"	d
+buff	lfsr.c	/^uint8_t buff[2048];$/;"	v
+card	gps.h	/^	char card;               \/\/ —°”√µƒƒƒ∏ˆSIMø®$/;"	m	struct:gps_data_t
+cmd_count	gps.c	/^int cmd_count;$/;"	v
+cmd_list	gps.c	/^char *cmd_list[64];  \/\/ √¸¡Ó¡–±Ì$/;"	v
+cog100	gps.h	/^	unsigned long cog100;    \/\/ ∫Ω––∑ΩœÚΩ«£¨“‘’˝±±Œ™0∂»$/;"	m	struct:gps_data_t
+count	gps.h	/^	unsigned long count;     \/\/ Œ¿–«∏ˆ ˝$/;"	m	struct:gps_data_t
+end_of_string	inifile.c	/^static int end_of_string(char c)$/;"	f	file:
+enuCmd	app.h	/^typedef enum enuCmd$/;"	g
+enuCmd	app.h	/^}enuCmd;$/;"	t	typeref:enum:enuCmd
+enuMesg	app.h	/^typedef enum enuMesg$/;"	g
+enuMesg	app.h	/^}enuMesg;$/;"	t	typeref:enum:enuMesg
+ew	gps.h	/^	char ew;                 \/\/ ∂´Œ˜∞Î«Ú ∞¥’’ASCII¬ÎΩ‚Œˆ$/;"	m	struct:gps_data_t
+ew_d	gps.h	/^	unsigned long ew_d;      \/\/ æ≠∂»£¨∂»$/;"	m	struct:gps_data_t
+ew_m10000	gps.h	/^	unsigned long ew_m10000; \/\/ æ≠∂»£¨∑÷£¨¿©¥Û10000±∂(¥¯4Œª–° ˝)$/;"	m	struct:gps_data_t
+fd	gps.c	/^int fd;$/;"	v
+fi	gps.c	/^FILE *fi;$/;"	v
+function	io_test.c	/^void function()\/*Áî®Êù•ËÄóÁî®‰∏ÄÂÆöÁöÑÊó∂Èó¥ËÄåÂ∑≤ÔºåÊó†ÂÆûÈôÖÁî®Â§ÑÁöÑÂáΩÊï∞*\/$/;"	f
+gccincdir	common.mk	/^gccincdir = $(shell $(CC) -print-file-name=include)$/;"	m
+gps_bak	gps.c	/^static struct gps_data_t gps_bak;	\/\/ GPSµƒ ˝æ›$/;"	v	typeref:struct:gps_data_t	file:
+gps_buff	gps.c	/^char gps_buff[512];$/;"	v
+gps_checksum	gps.c	/^static int gps_checksum( void )$/;"	f	file:
+gps_data	gps.c	/^static struct gps_data_t gps_data;$/;"	v	typeref:struct:gps_data_t	file:
+gps_data_t	gps.h	/^struct gps_data_t$/;"	s
+gps_debug	gps.c	/^int gps_debug = (0);$/;"	v
+gps_gpgga	gps.c	/^static void gps_gpgga( void )$/;"	f	file:
+gps_gprmc	gps.c	/^static void gps_gprmc( void )$/;"	f	file:
+gps_proc_frame	gps.c	/^static void gps_proc_frame( void )$/;"	f	file:
+height_d	gps.h	/^	unsigned long height_d;  \/\/ ∫£∞Œ£¨’˚ ˝≤ø∑÷£¨µ•ŒªŒ™√◊£¨∆©»Á43 µº …œ «43$/;"	m	struct:gps_data_t
+height_m	gps.h	/^	unsigned long height_m;  \/\/ ∫£∞Œ£¨–° ˝≤ø∑÷£¨µ•ŒªŒ™√◊£¨∆©»Á56 µº …œ «0.56$/;"	m	struct:gps_data_t
+iArmData	app.h	/^	int iArmData;$/;"	m	struct:tagInterData
+iDataFd	app.c	/^static int32_t iDataFd = -1;$/;"	v	file:
+iPcData	app.h	/^	int iPcData;$/;"	m	struct:tagInterData
+iValue	app.h	/^	int32_t iValue;$/;"	m	struct:tagIniData
+int16_t	common.h	/^typedef short int16_t;$/;"	t
+int32_t	common.h	/^typedef int int32_t;$/;"	t
+isright_brace	inifile.c	/^static int isright_brace(char c )$/;"	f	file:
+left_barce	inifile.c	/^static int left_barce(char c)$/;"	f	file:
+load_ini_file	inifile.c	/^static int load_ini_file(const char *file, char *buf,int *file_size)$/;"	f	file:
+main	io_test.c	/^int main(void)$/;"	f
+main	main.c	/^int main(void)$/;"	f
+main_therad_alarm	gps.c	/^void main_therad_alarm( int sig )$/;"	f
+newline	inifile.c	/^static int newline(char c)$/;"	f	file:
+ns	gps.h	/^	char ns;                 \/\/ ƒœ±±∞Î«Ú ∞¥’’ASCII¬ÎΩ‚Œˆ$/;"	m	struct:gps_data_t
+ns_d	gps.h	/^	unsigned long ns_d;      \/\/ Œ≥∂»£¨∂»$/;"	m	struct:gps_data_t
+ns_m10000	gps.h	/^	unsigned long ns_m10000; \/\/ Œ≥∂»£¨∑÷£¨¿©¥Û10000±∂(¥¯4Œª–° ˝)$/;"	m	struct:gps_data_t
+org_main	gps.c	/^int org_main( int argc, char **argv )$/;"	f
+pItem	app.h	/^	char pItem[50];$/;"	m	struct:tagIniData
+parse_file	inifile.c	/^static int parse_file(const char *section, const char *key, const char *buf,int *sec_s,int *sec_e,$/;"	f	file:
+pint16_t	common.h	/^typedef short * pint16_t;$/;"	t
+pint32_t	common.h	/^typedef int * pint32_t;$/;"	t
+pint8_t	common.h	/^typedef char * pint8_t;$/;"	t
+proc_args	gps.c	/^void proc_args( int argc, char **argv )$/;"	f
+proc_error	gps.c	/^void proc_error( void )$/;"	f
+proc_gps	gps.c	/^static void proc_gps( char *buff, int length )$/;"	f	file:
+puint16_t	common.h	/^typedef unsigned short * puint16_t;$/;"	t
+puint32_t	common.h	/^typedef unsigned int * puint32_t;$/;"	t
+puint8_t	common.h	/^typedef unsigned char * puint8_t;$/;"	t
+read_profile_int	inifile.c	/^int read_profile_int( const char *section, const char *key,int default_value, $/;"	f
+read_profile_string	inifile.c	/^int read_profile_string( const char *section, const char *key,char *value, $/;"	f
+real	gps.c	/^int real;      \/\/  µ ˝æ›∑¢≥ˆƒ£ Ω$/;"	v
+s_CmdHandler	app.c	/^static CommandData s_CmdHandler[] =$/;"	v	file:
+s_Filter	app.c	/^static InterData s_Filter[] =$/;"	v	file:
+s_FullRange	app.c	/^static InterData s_FullRange[] = $/;"	v	file:
+s_GpsThreadId	main.c	/^static pthread_t s_GpsThreadId = 0;$/;"	v	file:
+s_InputSouce	app.c	/^static InterData s_InputSouce[] = $/;"	v	file:
+s_MesgThreadId	main.c	/^static pthread_t s_MesgThreadId = 0;$/;"	v	file:
+s_SD_FILE_NAME	app.c	/^static char  s_SD_FILE_NAME[32];$/;"	v	file:
+s_SampleRateReg	app.c	/^static uint8_t s_SampleRateReg[6] = {$/;"	v	file:
+s_SampleRateValue	app.c	/^static uint32_t s_SampleRateValue[6] = {$/;"	v	file:
+s_SdDataDIR	app.c	/^static char s_SdDataDIR[64]; \/\/64bytes max$/;"	v	file:
+s_SyncMode	app.c	/^static InterData s_SyncMode[] =$/;"	v	file:
+s_WorkMode	app.c	/^static InterData s_WorkMode[] =$/;"	v	file:
+s_WorkMode_TX	app.c	/^static uint32_t s_WorkMode_TX = 1;$/;"	v	file:
+s_cnt	app.c	/^static uint32_t s_cnt = 0;$/;"	v	file:
+s_csrFd	main.c	/^static int s_csrFd = 0;$/;"	v	file:
+s_gpsOK_1	gps.c	/^static int s_gpsOK_1 = 0, s_gpsOK_2 = 0;$/;"	v	file:
+s_gpsOK_2	gps.c	/^static int s_gpsOK_1 = 0, s_gpsOK_2 = 0;$/;"	v	file:
+s_iBramFd	main.c	/^static int s_iBramFd = 0;$/;"	v	file:
+s_iCmdAcqSock	app.c	/^static int32_t s_iCmdAcqSock = -1;$/;"	v	file:
+s_iCmdConnSock	app.c	/^static int32_t s_iCmdConnSock = -1;$/;"	v	file:
+s_iDataAcqSock	app.c	/^static int32_t s_iDataAcqSock = - 1;$/;"	v	file:
+s_iDataConnSock	app.c	/^static int32_t s_iDataConnSock = -1;$/;"	v	file:
+s_iDataIrqFd	main.c	/^static int s_iDataIrqFd = 0;$/;"	v	file:
+s_iIniFd	app.c	/^static int32_t s_iIniFd = -1;$/;"	v	file:
+s_iIrqFd	main.c	/^static int s_iIrqFd = 0;$/;"	v	file:
+s_iMesgAcqSock	app.c	/^static int32_t s_iMesgAcqSock = -1;$/;"	v	file:
+s_iMesgConnSock	app.c	/^static int32_t s_iMesgConnSock = -1;$/;"	v	file:
+s_iRamFd	main.c	/^static int s_iRamFd = 0;$/;"	v	file:
+s_index	gps.c	/^int s_index=-1;$/;"	v
+s_pAckHead	app.c	/^static AckHeader* s_pAckHead = (AckHeader*)s_pTcpBuff;$/;"	v	file:
+s_pCalibrationIni	app.c	/^static const char *s_pCalibrationIni = "Calibration.ini";$/;"	v	file:
+s_pCmdHead	app.c	/^static CmdHeader* s_pCmdHead = (CmdHeader*)s_pTcpBuff;$/;"	v	file:
+s_pConfigIni	app.c	/^static const char *s_pConfigIni = "Configuration.ini";$/;"	v	file:
+s_pConfigIniDir	app.c	/^static const char *s_pConfigIniDir = "\/DATA\/Configuration.ini";$/;"	v	file:
+s_pDataFd	app.c	/^static FILE *s_pDataFd = NULL;$/;"	v	file:
+s_pDataFile	app.c	/^static const char *s_pDataFile = "\/tmp\/acquistion.dat";$/;"	v	file:
+s_pMesgBuff	app.c	/^static uint8_t s_pMesgBuff[MESG_BUFF_SIZE];$/;"	v	file:
+s_pMesgHead	app.c	/^static MesgHeader* s_pMesgHead = (MesgHeader*)s_pMesgBuff;$/;"	v	file:
+s_pSdFd	app.c	/^static FILE *s_pSdFd = NULL;$/;"	v	file:
+s_pSdFile	app.c	/^static const char *s_pSdFile = "acquistion.dat";$/;"	v	file:
+s_pSdHPFd	app.c	/^static FILE *s_pSdHPFd = NULL;$/;"	v	file:
+s_pSimuData	app.c	/^static uint32_t s_pSimuData[10485760];$/;"	v	file:
+s_pTcpBuff	app.c	/^static uint8_t s_pTcpBuff[TCP_BUFF_SIZE];$/;"	v	file:
+s_pUdpBuff	app.c	/^static uint8_t s_pUdpBuff[UDP_BUFF_SIZE];$/;"	v	file:
+s_pUdpHead	app.c	/^static UdpHeader* s_pUdpHead = (UdpHeader*)s_pUdpBuff;$/;"	v	file:
+s_puiAddr	app.c	/^static uint32_t *s_puiAddr = NULL;$/;"	v	file:
+s_puiAddr_A	app.c	/^static uint32_t *s_puiAddr_A = NULL;$/;"	v	file:
+s_puiAddr_B	app.c	/^static uint32_t *s_puiAddr_B = NULL;$/;"	v	file:
+s_puiConfigBuf	app.c	/^static uint32_t s_puiConfigBuf[87]; \/\/config data length is 87*4$/;"	v	file:
+s_puiPrbsBuff	app.c	/^static uint32_t s_puiPrbsBuff[64];$/;"	v	file:
+s_tick	app.c	/^static int32_t s_tick = 0;$/;"	v	file:
+s_total	app.c	/^static uint32_t s_total = 0;$/;"	v	file:
+s_ucDeliveredDone	app.c	/^static uint8_t s_ucDeliveredDone = 0;$/;"	v	file:
+s_ucIntHappend	app.c	/^static uint8_t s_ucIntHappend = 0;$/;"	v	file:
+s_ucIsReady	app.c	/^static uint8_t s_ucIsReady = FALSE;$/;"	v	file:
+s_uiCheck	app.c	/^static uint32_t s_uiCheck = 1;$/;"	v	file:
+s_uiFlag	app.c	/^static uint32_t s_uiFlag = 0;$/;"	v	file:
+s_uiSavePC	app.c	/^static uint32_t s_uiSavePC = 0; \/\/0:sd,1:pc$/;"	v	file:
+s_uiTcpSendLen	app.c	/^static uint32_t s_uiTcpSendLen = 0;$/;"	v	file:
+s_ulDataSize	app.c	/^static unsigned long long s_ulDataSize = 0;$/;"	v	file:
+s_ulSampleLength	app.c	/^static unsigned long long s_ulSampleLength = 0;$/;"	v	file:
+s_ulTotal	app.c	/^static unsigned long long s_ulTotal = 0;$/;"	v	file:
+s_ulTotalLen	app.c	/^static unsigned long long  s_ulTotalLen = 0;$/;"	v	file:
+sbuff	gps.c	/^char sbuff[256];$/;"	v
+set_opt	gps.c	/^int set_opt(int fd, int nSpeed, int nBits, char nEvent, int nStop)$/;"	f
+sig_term	gps.c	/^void sig_term( int sig )$/;"	f
+speed100	gps.h	/^	unsigned long speed100;  \/\/ ÀŸ∂»£¨∫Û√Ê”–2Œª–° ˝£¨µ•Œª£∫Ω⁄$/;"	m	struct:gps_data_t
+status	gps.h	/^	char status;             \/\/ ∂®Œª◊¥Ã¨ ∞¥’’ASCII¬ÎΩ‚Œˆ$/;"	m	struct:gps_data_t
+tagCmdHeader	app.h	/^typedef struct tagCmdHeader$/;"	s
+tagCommandData	app.h	/^typedef struct tagCommandData$/;"	s
+tagIniData	app.h	/^typedef struct tagIniData$/;"	s
+tagInterData	app.h	/^typedef struct tagInterData$/;"	s
+tagMesgHeader	app.h	/^typedef struct tagMesgHeader$/;"	s
+tagUdpHeader	app.h	/^typedef struct tagUdpHeader$/;"	s
+test_buff	gps.c	/^char test_buff[64];$/;"	v
+timesync	gps.c	/^int timesync;  \/\/  ±÷”Õ¨≤Ω±Í÷æ£¨»Áπ˚”–¥À±Í÷æ£¨Õ¨≤ΩÕÍ≥…æÕÕÀ≥ˆ≥Ã–Ú$/;"	v
+tm_hour	gps.h	/^	int tm_hour;    \/\/  ± - »°÷µ«¯º‰Œ™[0,23] $/;"	m	struct:MyTm
+tm_mday	gps.h	/^	int tm_mday;    \/\/ “ª∏ˆ‘¬÷–µƒ»’∆⁄ - »°÷µ«¯º‰Œ™[1,31] $/;"	m	struct:MyTm
+tm_min	gps.h	/^	int tm_min;     \/\/ ∑÷ - »°÷µ«¯º‰Œ™[0,59] $/;"	m	struct:MyTm
+tm_mon	gps.h	/^	int tm_mon;     \/\/ ‘¬∑›£®¥”“ª‘¬ø™ º£¨0¥˙±Ì“ª‘¬£© - »°÷µ«¯º‰Œ™[0,11] $/;"	m	struct:MyTm
+tm_sec	gps.h	/^	int tm_sec;     \/\/ √Î®C»°÷µ«¯º‰Œ™[0,59] $/;"	m	struct:MyTm
+tm_time	gps.c	/^static struct tm tm_time;			\/\/ GPSµƒ ±º‰$/;"	v	typeref:struct:tm	file:
+tm_time	gps.h	/^	struct MyTm tm_time;       \/\/ GPS ±º‰$/;"	m	struct:gps_data_t	typeref:struct:gps_data_t::MyTm
+tm_year	gps.h	/^	int tm_year;    \/\/ ƒÍ∑›£¨∆‰÷µ¥”1900ø™ º $/;"	m	struct:MyTm
+tm_zone	gps.h	/^	int tm_zone;    \/\/  ±«¯£¨À˘‘⁄ ±«¯œ‡±»0 ±«¯œ‡≤Óµƒ∑÷÷” ˝£¨∆©»Á±±æ© «∂´∞À«¯£¨∏√÷µŒ™-480$/;"	m	struct:MyTm
+to_pm	gps.c	/^int to_pm;$/;"	v
+uiLength	app.h	/^	uint32_t uiLength;$/;"	m	struct:tagUdpHeader
+uiReserved	app.h	/^	uint32_t uiReserved;$/;"	m	struct:tagCmdHeader
+uiReserved	app.h	/^	uint32_t uiReserved;$/;"	m	struct:tagMesgHeader
+uint16_t	common.h	/^typedef unsigned short uint16_t;$/;"	t
+uint32_t	common.h	/^typedef unsigned int uint32_t;$/;"	t
+uint64_t	common.h	/^typedef unsigned long long uint64_t;$/;"	t
+uint8_t	common.h	/^typedef unsigned char uint8_t;$/;"	t
+usAck	app.h	/^	uint16_t usAck;$/;"	m	struct:tagUdpHeader
+usCmd	app.h	/^	uint16_t usCmd;$/;"	m	struct:tagCmdHeader
+usCmd	app.h	/^	uint16_t usCmd;$/;"	m	struct:tagCommandData
+usLength	app.h	/^	uint16_t usLength;$/;"	m	struct:tagCmdHeader
+usLength	app.h	/^	uint16_t usLength;$/;"	m	struct:tagMesgHeader
+usMesg	app.h	/^	uint16_t usMesg;$/;"	m	struct:tagMesgHeader
+usReserved	app.h	/^	uint16_t usReserved;$/;"	m	struct:tagUdpHeader
+wdt	gps.c	/^int wdt;$/;"	v
+write_profile_string	inifile.c	/^int write_profile_string(const char *section, const char *key,$/;"	f
+writetofile	gps.c	/^void writetofile( void )$/;"	f

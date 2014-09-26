@@ -1,0 +1,21 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+IRQ	irq.c	/^irqreturn_t IRQ(int irq, void *dev_id, struct pt_regs *regs) \/\/interrupt handler$/;"	f
+KDIR	Makefile	/^KDIR=\/home\/kangqi\/Project\/zynq\/kernel\/linux-xlnx\/$/;"	m
+MODULE_NAME	irq.c	24;"	d	file:
+counter_irq_close	irq.c	/^static int counter_irq_close(struct inode *inode,struct file *file)$/;"	f	file:
+counter_irq_exit	irq.c	/^module_exit(counter_irq_exit);$/;"	v
+counter_irq_exit	irq.c	/^static void __exit counter_irq_exit(void)$/;"	f	file:
+counter_irq_fops	irq.c	/^struct file_operations counter_irq_fops = {$/;"	v	typeref:struct:file_operations
+counter_irq_int	irq.c	/^module_init(counter_irq_int);$/;"	v
+counter_irq_int	irq.c	/^static int __init counter_irq_int(void)$/;"	f	file:
+counter_irq_major	irq.c	/^int counter_irq_major = 0;$/;"	v
+counter_irq_open	irq.c	/^static int counter_irq_open(struct inode *inode, struct file *filp)$/;"	f	file:
+counter_irq_read	irq.c	/^static int counter_irq_read(struct file *filp, char __user *buff, size_t count, loff_t *offp)$/;"	f	file:
+devidR	irq.c	/^static int devidR = 1;$/;"	v	file:
+irqHappend	irq.c	/^static volatile int irqHappend = 0;$/;"	v	file:
+obj-m	Makefile	/^obj-m :=irq.o$/;"	m
